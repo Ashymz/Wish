@@ -1,0 +1,95 @@
+@font-face {
+    font-display: swap;
+    font-family: myFont;
+    src: url(https://res.cloudinary.com/oluwatoyinah/raw/upload/v1662495482/gomoney/FontsFree-Net-SF-Pro-Rounded-Heavy_qw9bps.woff2)
+}
+
+* {
+    font-family: myFont;
+}
+.h1_text {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
+
+}
+
+
+
+.btn__ {
+    background: #f47079;
+    border: none;
+    border-radius: 68.0544px;
+    box-shadow: inset 0 6.3801px 28.6996px 2.29597px #550505;
+    color: white;
+    filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
+    margin-top: 20px;
+    min-height: 77.68px;
+    min-width: 237.02px;
+    outline: none;
+    padding: 0px 15px;
+    transform: matrix(1, -.09, .04, 1, 0, 0);
+
+}
+
+#a_ {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+#footer_text {
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+
+}
+
+#t_text {
+    font-size: 20px;
+    font-weight: 800;
+    color: #eaa200;
+   
+}
+
+
+
+
+
+.name_ {
+    padding: 29px;
+    border: none;
+    margin-top: 19px;
+    border-radius: 14px;
+    padding-right: 186px;
+    font-size: 25px;
+    font-weight: 900;
+
+
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 896px) {
+    .h1_text {
+        font-size: 30px;
+    }
+
+    .h6_text {
+        font-size: 24px;
+
+    }
+
+    .name_ {
+        font-size: 20px;
+        padding-right: 98px;
+    }
+
+    .col-sm-8{
+        margin-left: 33px !important;
+    }
+}

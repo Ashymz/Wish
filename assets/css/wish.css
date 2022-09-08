@@ -1,0 +1,225 @@
+@font-face {
+    font-display: swap;
+    font-family: myFont;
+    src: url(https://res.cloudinary.com/oluwatoyinah/raw/upload/v1662495482/gomoney/FontsFree-Net-SF-Pro-Rounded-Heavy_qw9bps.woff2)
+}
+
+* {
+    font-family: myFont;
+    box-sizing: border-box;
+}
+
+.h1_text{
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    filter: drop-shadow(5px 10px rgba(15, 26, 62, .5)); 
+    transform: rotate(-3deg);
+    
+}
+ a{
+    text-decoration: underline;
+    text-decoration-color: #eaa200 !important;
+ }
+
+.h6_text{
+    color: white;
+    font-weight: 600;
+    font-size: 30;
+    transform: rotate(-3deg);
+}
+
+/*.btn__{
+  background-color: #f47079;
+  border: none;
+  border-radius: 68.0544px;
+  
+filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
+}*/
+
+.btn__{
+    background: #f47079;
+        border: none;
+        border-radius: 68.0544px;
+        box-shadow: inset 0 6.3801px 28.6996px 2.29597px #550505;
+        color: white;
+        filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
+        margin-top: 20px;
+        min-height: 77.68px;
+        min-width: 237.02px;
+        outline: none;
+        padding: 0px 15px;
+        animation: pulse 4s ease-in infinite;
+     
+        
+    
+}
+
+#a_{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+#footer_text{
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+
+}
+
+#t_text{
+    font-size: 20px;
+    font-weight: 800;
+    color: #eaa200;
+}
+
+#img_span{
+    margin: 11px;
+}
+
+.starEye{
+  position: absolute;
+  left: 7.5cm;
+  width: 307px;
+  top: 138px;
+  animation: pulse 4s ease-in infinite;
+ 
+}
+
+
+.brown_{
+    position: absolute;
+    left: 34cm;
+    top: 63px;
+    width: 4cm;
+    -webkit-animation: rotation 10s infinite linear;
+    animation-direction: alternate-reverse;
+}
+
+.suitcase{
+    position: absolute;
+    top: 60%;
+    left: 31cm;
+    width: 184px;
+    animation: dribble 3s 0s infinite alternate ease-in-out forwards;
+}
+
+.wallet{
+    width: 15%;
+    top: 78%;
+    position: absolute;
+    left: 10cm;
+    animation: dribble 3s 0s infinite alternate ease-in-out forwards;
+}
+
+.sun{
+    position: absolute;
+    top: 77%;
+    left: 37cm;
+    width: 47px;
+    animation: dribble 2s 0s infinite alternate ease-in-out forwards;
+}
+
+.sun-iso{
+    position: absolute;
+    left: 219px;
+    top: 83%;
+    width: 117px;
+    animation: dribble 2s 0s infinite alternate ease-in-out forwards;
+}
+
+.plane{
+    width: 26%;
+    left: 34cm;
+    margin-left: -37px;
+    position: absolute;
+
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(310deg);
+    }
+
+    to {
+        -webkit-transform: rotate(9deg);
+    }
+}
+
+@keyframes pulse {
+    25% {
+        transform: scale(0.9);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+}
+
+
+@keyframes dribble {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+@media screen and (max-width: 896px) {
+  .d_{
+    height: 970px;
+  }
+
+.starEye{
+    position: absolute;
+    left: -1.5cm;
+    width: 227px;
+    top: 17cm;
+}
+
+.brown_{
+    position: absolute;
+    left: 14cm;
+    top: 82px;
+    width: 2.5cm;
+}
+
+.h1_text{
+    font-size: 57px;
+}
+
+.suitcase{
+    position: absolute;
+    top: 103%;
+    left: 14cm;
+    width: 138px;
+}
+
+.wallet{
+    width: 14%;
+    top: 37%;
+    position: absolute;
+    left: -1cm;
+}
+
+.sun{
+    position: absolute;
+    top: 86%;
+    left: 15cm;
+    width: 47px;
+}
+.sun-iso{
+    display: none;
+}
+
+.plane{
+    width: 26%;
+    left: 14cm;
+    margin-left: -33px;
+    position: absolute;
+}
+}

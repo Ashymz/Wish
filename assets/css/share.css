@@ -1,0 +1,130 @@
+@font-face {
+    font-display: swap;
+    font-family: myFont;
+    src: url(https://res.cloudinary.com/oluwatoyinah/raw/upload/v1662495482/gomoney/FontsFree-Net-SF-Pro-Rounded-Heavy_qw9bps.woff2)
+}
+
+* {
+    font-family: myFont;
+}
+.h1_text {
+    color: white;
+    font-size: 95px;
+    font-weight: 800;
+    filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
+    
+    background: -webkit-linear-gradient(90deg, #ffe299, #fff);
+    transform: rotate(-3deg);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+
+}
+
+.h6_text {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.app_store{
+    width: 141px;
+}
+
+.google_{
+    width: 141px;
+    margin-left: 22px;
+}
+
+.whatsapp_{
+    width: 55px;
+    background-color: #25d366;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.whatsapp_:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+
+.messenger_{
+    width: 55px;
+    background-color: #445aff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.messenger_:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+
+.linkedin_{
+    width: 55px;
+    background-color: #0077b5;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.linkedin_:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+
+.facebook_{
+    width: 55px;
+    background-color: #4267B2;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.facebook_:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+.twitter_{
+    width: 55px;
+    background-color: #55acee;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.twitter_:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+input:focus~.float-label,
+input:not(:focus):valid~.float-label {
+    top: 1.0px;
+    color: black;
+    background-color: white;
+    padding: 0.1em 0.6em;
+    left: 0.3em;
+    border-radius: 0.25em;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 896px) {
+    .h1_text {
+        font-size: 67px;
+    }
+
+    .h6_text {
+        font-size: 24px;
+
+    }
+
+    .name_ {
+        font-size: 20px;
+        padding-right: 98px;
+    }
+
+    .col-sm-8 {
+        margin-left: 33px !important;
+    }
+}

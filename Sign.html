@@ -1,0 +1,83 @@
+<html lang="en" style="height: 1200px;">
+
+<head>
+    <title>Wish</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/sign.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<style>
+    body {
+        background-image:
+            linear-gradient(rgba(7, 30, 241, 0.733), rgba(7, 43, 245, 0.644)),
+            url('assets/images/Glossy.bck.png');
+        width: 100%;
+        height: 100%;
+        position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 40px;
+        overflow-x: hidden;
+    }
+</style>
+
+<body>
+    <canvas width="1366" height="625" origin="1"
+        style="z-index: 2; position: absolute; pointer-events: none; inset: 0px;"></canvas>
+
+    <div>
+        <div class=" container-fluid p-lg-5 py-5 px-3 text-center">
+            <img src="assets/images/logo.png" width="80px">
+
+            <section class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm pt-5 mt-5 text-center">
+                            <h1 class="h1_text">We will contact you if your
+                                <br>wish is granted
+                            </h1>
+                            
+                            <form class="col-sm-8" id="form_" style="margin: auto;">
+                                <input type="name" placeholder="Full Name" class="name_"></input>
+                                <input type="name" placeholder="Email" class="name_"></input>
+                            </form>
+
+                            <button class="mt-5 btn__" style="padding: 24px;"><a href="Share.html" id="a_" onclick="cli()">Submit<img
+                                        src="assets/images/download.png"></button></a>
+                        </div>
+                        <div class="container">
+                            <footer class="container pt-5 mt-5 text-center">
+                                <div>
+                                    <h6 id="footer_text">a gomoney challenge 2022</h6>
+                                    <a href="/T&C">
+                                        <span id="img_span"><img src="assets/images/download1.png" style="width: 33;"></span>
+                                        <span id="t_text"> T&C Apply</span></a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+<script>
+    function cli(){
+        document.getElementById('a_').innerHTML= 'Loading...';
+    }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
