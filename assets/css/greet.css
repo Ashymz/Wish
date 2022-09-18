@@ -33,8 +33,6 @@
     color: white;
     filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
     margin-top: 20px;
-    min-height: 77.68px;
-    min-width: 237.02px;
     outline: none;
     padding: 0px 15px;
     transform: matrix(1, -.09, .04, 1, 0, 0);
@@ -85,11 +83,87 @@
     font-size: 25px;
     font-weight: 900;
     transition: all 200ms ease-in-out;
+    outline: none;
+    color: blue;
     
 }
 
 ::placeholder{
     color: blue;
+}
+
+@media (max-width: 320px) {
+    #img_logo1 {
+        width: 30% !important;
+    }
+ 
+    .h1_text {
+        font-size: 25px !important;
+    }
+
+    .h6_text {
+        font-size: 15px !important;
+    }
+
+        .name_ {
+            font-size: 12px !important;
+            /* padding-right: 98px; */
+        }
+    
+        .name_ {
+            padding: 9px !important;
+            border: none;
+            margin-top: 12px;
+            border-radius: 14px;
+            padding-right: 48px;
+            font-size: 25px;
+            font-weight: 900;
+            transition: all 200ms ease-in-out;
+            margin-left: -12px !important;
+            padding-right: 0px !important;
+            outline: none;
+            color: blue;
+        }
+
+
+        #a_ {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 19px  !important;
+            color: white;
+        }
+
+         #footer_text {
+            font-size: 11px;
+            font-weight: 900;
+            color: white;
+        }
+
+        #t_text {
+            font-size: 11px;
+            font-weight: 800;
+            color: #eaa200;
+        }
+
+        #img_span {
+            margin: 0px;
+        }
+
+
+        .btn__ {
+            background: #f47079;
+            border: none;
+            border-radius: 70.0544px;
+            box-shadow: inset 0 6.3801px 28.6996px 2.29597px #550505;
+            color: white;
+            outline: none;
+            animation: pulse 4s ease-in infinite;
+        }
+        
+        #btn_1 {
+            padding: 7px !important;
+        }
+
 }
 
 @media screen and (max-width: 896px) {

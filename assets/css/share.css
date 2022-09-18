@@ -109,6 +109,115 @@ input:not(:focus):valid~.float-label {
     font-size: 10px;
 }
 
+.span_img{
+font-size: 108px;
+margin: -43px;
+}
+
+.span_svg{
+    margin: 15px;
+    font-size: 60px;
+}
+
+@media (max-width: 320px) {
+    .h1_text {
+        font-size: 32px !important;
+        }
+
+     .h6_text {
+        font-size: 13px !important;
+        }
+
+    .app_store {
+        width: 60%;
+        }
+
+    .google_ {
+        width: 60%;
+        margin: 9px;
+        }
+
+    .facebook{
+        width: 11%;
+        }
+     
+    .twitter{
+        width: 11% !important;
+        }
+
+    .insta{
+        width: 11%;
+        }
+
+    .linkedin{
+        width: 11%;
+        }
+
+    .whatsapp_ {
+        width: 29px !important;
+        background-color: #25d366;
+        padding: 4px !important;
+        border-radius: 5px;
+        transition: .4s ease-in-out;
+        }
+
+    .linkedin_ {
+        width: 29px !important;
+        padding: 4px !important;
+        border-radius: 5px;
+        transition: .4s ease-in-out;
+        }
+
+    .messenger_ {
+        width: 29px !important;
+        padding: 4px !important;
+        border-radius: 5px;
+        transition: .4s ease-in-out;
+        }
+
+    .facebook_ {
+        width: 29px !important;
+        padding: 4px !important;
+        border-radius: 5px;
+        transition: .4s ease-in-out;
+        }
+    
+    .twitter_ {
+        width: 29px !important;
+        padding: 4px !important;
+        border-radius: 5px;
+        transition: .4s ease-in-out;
+        }
+    
+    .span_svg{
+        margin: -12px;
+        font-size: 11px;
+        margin-top: 2;
+    }
+
+    .span_img{
+        font-size: 81px;
+        margin: -35px;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+   
+
+
+
 @media screen and (max-width: 896px) {
     .h1_text {
         font-size: 67px;
