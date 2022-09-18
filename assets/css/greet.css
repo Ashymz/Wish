@@ -149,6 +149,10 @@
             margin: 0px;
         }
 
+        .span__{
+            display: none !important;
+        }
+
 
         .btn__ {
             background: #f47079;
