@@ -119,7 +119,7 @@ margin: -43px;
     font-size: 60px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .h1_text {
         font-size: 32px !important;
         }

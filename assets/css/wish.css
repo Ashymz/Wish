@@ -172,7 +172,7 @@ filter: drop-shadow(5px 10px rgba(15, 26, 62, .5));
 }
 
 /*Mobile Resp.*/
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     #img_logo{
         width: 23%;
     }
